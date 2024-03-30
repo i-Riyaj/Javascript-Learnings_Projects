@@ -1,7 +1,13 @@
 <h1>Javascript Minor Projects</h1>
 <p>In this repository I have uploaded all the projects that I had done while learning Javascript.</p>
+<h3>Technolodgy Used :</h3>
 <ul>
-  Projects:
+  <li>Html</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+</ul>
+<h3>Projects :</h3>
+<ul>
   <li>
     <a href="https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/AutoBackgroundChanger" target="_blank">Auto Background Changer </a>
   </li>
