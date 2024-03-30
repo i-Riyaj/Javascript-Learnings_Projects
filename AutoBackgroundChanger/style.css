@@ -1,0 +1,40 @@
+:root {
+    font-size: 62.5%;
+
+    --padding10px: 1rem;
+}
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+
+    min-height: 100dvh;
+    max-width: 100dvw;
+
+    padding: var(--padding10px);
+}
+
+.btn {
+    width: 7rem;
+    height: 3rem;
+
+    font-size: 2rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: inline-grid;
+    gap: 1rem;
+
+    grid-template-columns: repeat(2, 1fr);
+}

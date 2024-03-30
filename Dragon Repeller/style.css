@@ -1,0 +1,99 @@
+:root {
+    font-size: 62.5%;
+
+    --bgColor: #414141;
+    --textColor: white;
+
+    --padding5px: 0.5rem;
+    --padding10px: 1rem;
+}
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+.flexCol {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexRow {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+
+    font-size: 2.6rem;
+    background-color: var(--bgColor);
+    
+}
+
+main {
+
+    --bgColor: white;
+    background-color: var(--bgColor);
+
+    padding: var(--padding10px);
+
+    max-width: 80rem;
+
+}
+
+#game {
+    min-width: 100%;
+    padding: var(--padding5px);
+
+    border: 0.1rem solid #212121;
+
+    justify-content: space-around;
+}
+
+#controls {
+    border: 0.1rem solid #212121;
+
+    padding: var(--padding5px);
+    min-width: 100%;
+
+    justify-content: space-around;
+}
+
+button {
+    font-size: 2.6rem;
+    padding: 0.2rem var(--padding5px);
+
+    --bgColor: #feac32;
+    background-color: var(--bgColor);
+    background-image: linear-gradient(#fecc4c, #ffac33);
+
+    border: 0.2rem solid #feac32;
+}
+
+#text {
+    min-width: 100%;
+    
+    --bgColor: #0a0a23;
+    background-color: var(--bgColor);
+
+
+    color: var(--textColor);
+
+    padding: var(--padding10px);
+  }
+
+  #monsterStats {
+    min-width: 100%;
+    
+    --bgColor: rgb(220, 73, 73);
+    background-image: linear-gradient(rgb(237, 17, 17), var(--bgColor));
+
+    padding: var(--padding5px);
+  }

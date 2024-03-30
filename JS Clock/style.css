@@ -1,0 +1,112 @@
+html, body {
+    min-height: 100vh;
+    
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 10px;
+    padding: 0rem;
+    margin: 0rem;
+
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #27005D; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.box {
+    font-size: 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.date {
+    font-size: 9rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-shadow: -0.3rem -0.4rem 0.5rem black;
+}
+
+.clock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#hour {
+    height: 12rem;
+    width: 12rem;
+    background-color: #9400FF;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#minute {
+    height: 12rem;
+    width: 12rem;
+    background-color: #AED2FF;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second{
+    height: 12rem;
+    width: 12rem;
+    background-color: #E4F1FF;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#session {
+    font-size: 6rem;
+}
+
+/*classes used in className of js script*/
+.hr {
+   font-size: 7rem;
+   color: #27005D;
+}
+.min {
+    font-size: 7rem;
+    color: #27005D;
+}
+.sec {
+    font-size: 7rem;
+    color: #27005D;
+}
+
+
+
+/*making responsive*/
+@media (max-width: 650px) {
+    .title {
+       font-size: 5rem;
+    }
+    .clock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .date {
+        font-size: 4rem;
+    }
+}

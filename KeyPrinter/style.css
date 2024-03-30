@@ -1,0 +1,54 @@
+:root {
+    font-size: 62.5%;
+
+    --bgColor: #212121;
+    --textColor: white;
+}
+
+body {
+    font-size: 1.6rem;
+
+    background-color: var(--bgColor);
+
+    min-height: 100dvh;
+    max-width: 100dvw;
+}
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font20px {
+    font-size: 2rem;
+    color: var(--textColor);
+}
+
+table, th, td {
+    border: 0.3rem white solid;
+    border-collapse: collapse;
+
+    text-align: center;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+table {
+    min-width: 30rem;
+}
+
+@media (min-width: 700px) {
+    .font20px{
+        font-size: 3rem;
+    }
+
+    th, td {
+        padding: 1rem;
+    }
+}
