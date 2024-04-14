@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>see weather</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+</head>
+<body>
+
+    <div class="mainContainer min-h-dvh max-w-dvw bg-[#31255a] flex justify-center items-center flex-col gap-9">
+
+        <div class="searchBox p-3 flex gap-2 justify-center items-center max550px:max-w-[90%]">
+            <input 
+                class="p-3 text-3xl rounded-full font-bold max-w-[70%]"
+                type="text" 
+                id="searchInput"
+                placeholder="Enter a city name"
+                value=""
+            >
+            <button
+                id="searchBtn"
+                type="button"
+                class="bg-white p-3 flex justify-center items-center rounded-full"
+            >
+                <img src="../assets/Images/search.png" width="35px"/>
+            </button>
+        </div>
+
+        <div class="weather hidden">
+
+            <div class="displayWeather p-5 text-white flex flex-col md:flex-row gap-16 justify-evenly items-center">
+
+                <div>
+                    <img class="weatherIcon" src="../assets/Images/rain.png"
+                    class="size-60"/>
+                </div>
+                
+                <div class="displayTempareture text-8xl"></div>
+    
+                <div class="displayLocation text-5xl"></div>
+    
+            </div>
+    
+            <div class="displayAdditionalInfo p-5 text-white text-2xl flex flex-col sm:flex-row gap-10 justify-center items-center">
+    
+                <div class="displayHumidity p-5 justify-end flex gap-3">
+                    <div class="humidIcon">
+                        <img src="../assets/Images/humidity.png" />
+                    </div>
+                    <div class="displayHumidInfo">
+                        <div class="showHumidity"></div>
+                        <div>Humidity</div>
+                    </div>
+                </div>
+    
+                <div class="displayWindInfo p-5 justify-start flex gap-3">
+                    <div class="windIcon">
+                        <img src="../assets/Images/wind.png" />
+                    </div>
+                    <div class="displayWindSpeed">
+                        <div class="showWindSpeed"></div>
+                        <div>wind speed</div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="text-white p-5 m-2">&copy 2024. All copyrights reserved.</div>
+        
+        
+    </div>
+     
+    <script src="script.js"></script>
+</body>
+</html>
