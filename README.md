@@ -3,7 +3,7 @@
 <h3>Technolodgy Used :</h3>
 <ul>
   <li>Html</li>
-  <li>CSS | TailwindCSS</li>
+  <li>CSS</li>
   <li>Javascript</li>
 </ul>
 <h3>Projects :</h3>
