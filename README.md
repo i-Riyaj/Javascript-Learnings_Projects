@@ -35,4 +35,7 @@
   <li>
     <a href="https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/shoutout-my-name" target="_blank">shoutout-my-name</a>
   </li> 
+  <li>
+    <a href="https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/Weather%20App" target="_blank">Weather App</a>
+  </li>
 </ul>
