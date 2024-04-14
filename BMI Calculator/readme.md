@@ -1,0 +1,2 @@
+# Live link
+Tap here: https://i-riyaj.github.io/Javascript-Learnings_Projects/BMI%20Calculator
