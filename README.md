@@ -3,7 +3,7 @@
 <h3>Technolodgy Used :</h3>
 <ul>
   <li>Html</li>
-  <li>CSS | TailwindCSS</li>
+  <li>CSS</li>
   <li>Javascript</li>
 </ul>
 <h3>Projects :</h3>
@@ -35,4 +35,5 @@
   <li>
     <a href="https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/shoutout-my-name" target="_blank">shoutout-my-name</a>
   </li> 
+  
 </ul>
