@@ -1,0 +1,11 @@
+/* customizing scrollbar  */
+
+body::-webkit-scrollbar {
+    width: 0.2em;
+}
+   
+body::-webkit-scrollbar-thumb {
+    margin: 5px;
+    border-radius: 1em;
+    background-color: rgb(180, 175, 175);
+}

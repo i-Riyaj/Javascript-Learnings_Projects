@@ -1,0 +1,48 @@
+/* #selfInfo division */
+#selfInfo {
+    margin-top: 13em;
+    color: var(--sTextcolor);
+}
+
+/* #info division  */
+#info {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.3125em;
+}
+
+#info h2{
+    font-size: 1.8em;
+}
+
+#info h2 span{
+    font-size: 100%;
+    --textColor: rgb(255, 132, 16);
+    color: var(--textColor);
+}
+
+#info a{
+    --textColor: var(--stextColor);
+    --bgColor: var(--btnBgColor);
+   text-decoration: none;
+   color: var(--textColor);
+   background: var(--bgColor);
+   padding: 0.125em 0.3125em;
+   border-radius: 0.1875em;
+}
+
+/* #myImage division */
+#myImage {
+    position: absolute;
+    top: 3.5em;
+    left: 30%;
+}
+
+#myImage img{
+    width: 8em;
+    position: absolute;
+}
+

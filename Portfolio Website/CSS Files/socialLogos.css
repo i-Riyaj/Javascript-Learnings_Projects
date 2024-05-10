@@ -1,0 +1,15 @@
+/* #socialLinks div  */
+#socailLinks {
+    display: flex;
+    gap: 0.5em;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+#socailLinks a svg{
+    height: 1.8em;
+    width: 1.8em;
+    background: var(--btnBgColor);
+    border-radius: 50%;
+}

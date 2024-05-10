@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    font-size: 62.5%;
+
+    /* light theme colors  */
+    
+    --bgColor: #edf2fc;
+    --textColor: black; 
+    --sTextcolor: #000000;
+    --btnBgColor: #C996CC;
+    
+
+    /* dark theme colors  */
+    /*
+    --bgColor: #000000;
+    --textColor: #892CDC;
+    --sTextcolor: #fff;
+    --btnBgColor: #3D2C8D;
+    */
+}
+
+* {
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", sans-serif;
+    
+}
+
+body {
+    
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainContainer {
+    min-height: 100dvh;
+    width: 100dvw;
+    padding: 0.5em;
+    background: var(--bgColor);
+    overflow-y: auto;
+}
+
+/* header division */
+#mainContainer header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav division */
+#mainContainer header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 90%;
+}
+
+#mainContainer header nav a img {
+    cursor: pointer;
+    width: 3em; 
+}
+
+/* three bars division  */
+#mainContainer header nav button{
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: var(--sTextcolor);
+    background: transparent;
+}
+
+#mainContainer header nav button svg{
+    width: 1.4em;
+    height: 1.4em;
+}
+
+/* navigationList division  */
+.navUlLists{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 0.5em;
+    background: var(--btnBgColor);
+    border-radius: 0.25em;
+    list-style-type: none;
+    position: absolute;
+    top: 1.9em;
+    right: 0;
+    z-index: 1;
+    
+}
+
+.displayNone {
+    display: none;
+}
+
+.navUlLists li{
+    padding: 0.3125em;
+    border-radius: 0.1875em;
+}
+
+.navUlLists li a{
+    color: var(--sTextcolor);
+    text-decoration: none;
+}
+
+/* #switchTheme div  */
+#switchTheme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    --bgColor: var(--btnBgColor);
+    --textColor: var(--sTextcolor);
+    background: var(--bgColor);
+    color: var(--textColor);
+    padding: 0.3em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#switchTheme svg{
+    width: 1em;
+    height: 1em;
+}
