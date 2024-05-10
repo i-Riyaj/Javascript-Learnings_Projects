@@ -15,3 +15,4 @@ In this repository I have uploaded all the projects that I had done while learni
 8. [Rock-Paper-Seissor-js](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/Rock-Paper-Seissor-js)
 9. [shoutout-my-name](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/shoutout-my-name)
 10. [PopUp](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/PopUp)
+11. [Hide and Show Password](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/Hide%20and%20Show%20Password)
