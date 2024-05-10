@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide and show Password</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaQuery.css"/>
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="inputField">
+            <input 
+                type="password" 
+                name="password" 
+                id="password" 
+                minlength="8" 
+                maxlength="15" 
+                required
+            >
+            <button onclick="showPassword()">
+                <img id="eyeImage" src="./assets/images/eye-close.png" alt="eyeImage"/>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        const password = document.querySelector('#password');
+        let eyeImage = document.querySelector('#eyeImage');
+        function showPassword () { 
+            if(password.value !== ''){
+                eyeImage.src = './assets/images/eye-close.png';
+                if(password.type == 'password'){
+                eyeImage.src = './assets/images/eye-open.png';
+                password.type = "text";
+            }
+            else if(password.type == 'text'){
+                eyeImage.src = './assets/images/eye-close.png';
+                password.type = "password";
+            }
+            }
+        }
+    </script>
+</body>
+</html>
