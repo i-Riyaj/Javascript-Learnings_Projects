@@ -3,14 +3,10 @@
     /* font 10px */
     font-size: 62.5%;
 
-    /* dark theme colors  */
+    /* theme colors  */
     --bgColor: #030637;
     --textColor: #fff;
     --btnBgColor: #720455;
-
-    /* light theme colors  */
-    /* --textColor: black;
-    --btnBgColor: #A8DF8E; */
 
 }
 
@@ -59,8 +55,8 @@ body {
     background: var(--bgColor);
     border-radius: 0.1875em;
     padding: 1em;
-    height: 8em;
-    width: 10em;
+    height: 10em;
+    width: 12em;
     position: absolute;
     visibility: hidden;
 }
@@ -75,25 +71,24 @@ body {
     padding: 0.3125em;
     position: absolute;
     top: -1.5em;
-    left: 3.5em;
+    left: 4.5em;
 }
 
 #checkImg svg{
-    font-size: 1.6rem;
     height: 2.5em;
     width: 2.5em;
 }
 
 #popUpInfo {
-    font-size: 1rem;
     margin-top: 2em;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1.5em;
     justify-content: center;
 }
 
 #popUpInfo div{
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,7 +100,7 @@ body {
 }
 
 #okBtn {
-    font-size: 1rem;
+    font-size: 1.6rem;
     background: #64c835;
     color: #fff;
     padding: 0.3em;
