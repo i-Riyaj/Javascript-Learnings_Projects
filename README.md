@@ -1,39 +1,17 @@
-<h1>Javascript Minor Projects</h1>
-<p>In this repository I have uploaded all the projects that I had done while learning Javascript.</p>
-<h3>Technolodgy Used :</h3>
-<ul>
-  <li>Html</li>
-  <li>CSS</li>
-  <li>Javascript</li>
-</ul>
-<h3>Projects :</h3>
-<ul>
-  <li>
-    <a href="https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/AutoBackgroundChanger" target="_blank">Auto Background Changer </a>
-  </li>
-  <li>
-    <a href="https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/BMI%20Calculator" target="_blank">BMI Calculator</a>
-  </li>
-  <li>
-    <a href="https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/Color%20Scheme%20Switcher" target="_blank">Color Scheme Switcher</a>
-  </li>
-  <li>
-    <a href="https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/Dragon%20Repeller" target="_blank">Dragon Repeller Game</a>
-  </li>
-  <li>
-    <a href="https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/Guess%20The%20Number" target="_blank">Guess The Number</a>
-  </li>
-  <li>
-    <a href="https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/JS%20Clock" target="_blank">JS Clock</a>
-  </li>
-  <li>
-    <a href="https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/KeyPrinter" target="_blank">KeyPrinter</a>
-  </li> 
-  <li>
-    <a href="https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/Rock-Paper-Seissor-js" target="_blank">Rock-Paper-Seissor-js</a>
-  </li> 
-  <li>
-    <a href="https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/shoutout-my-name" target="_blank">shoutout-my-name</a>
-  </li> 
-  
-</ul>
+# Javascript Minor Projects
+In this repository I have uploaded all the projects that I had done while learning Javascript.
+## Technolodgy Used
+  - Html
+  - CSS
+  - Javascript
+## Projects
+1. [Auto Background Changer](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/AutoBackgroundChanger)
+2. [BMI Calculator](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/BMI%20Calculator)
+3. [Color Scheme Switcher](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/Color%20Scheme%20Switcher)
+4. [Dragon Repeller Game](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/Dragon%20Repeller)
+5. [Guess The Number](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/Guess%20The%20Number)
+6. [JS Clock](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/JS%20Clock)
+7. [Key Printer](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/KeyPrinter)
+8. [Rock-Paper-Seissor-js](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/Rock-Paper-Seissor-js)
+9. [shoutout-my-name](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/shoutout-my-name)
+10. [PopUp](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/PopUp)
