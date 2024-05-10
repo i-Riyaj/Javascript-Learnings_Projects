@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');
+:root {
+    /* font 10px */
+    font-size: 62.5%;
+
+    /* dark theme colors  */
+    --bgColor: #030637;
+    --textColor: #fff;
+    --btnBgColor: #720455;
+
+    /* light theme colors  */
+    /* --textColor: black;
+    --btnBgColor: #A8DF8E; */
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font size is 10px */
+    font-family: "Tiro Bangla", serif;
+    background: var(--bgColor);
+    min-height: 100dvh;
+    max-width: 100dvw;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainContainer {
+    height: 95vh;
+    min-width: 90vw;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button division  */
+#submitBtn {
+    font-size: 3rem;
+    padding: 0.166em 1em;
+    border-radius: 1em;
+    border: none;
+    color: var(--textColor);
+    background: var(--btnBgColor);
+    cursor: pointer;
+}
+
+/* #popUp division */
+#popUp {
+    font-size: 1.6rem;
+    --bgColor: #F3FDE8;
+    background: var(--bgColor);
+    border-radius: 0.1875em;
+    padding: 1em;
+    height: 8em;
+    width: 10em;
+    position: absolute;
+    visibility: hidden;
+}
+
+#checkImg{
+    /* font size is 16px / 1.6rem */
+    --textColor: white;
+    color: var(--textColor);
+    background: #64c835;
+    display: inline-flex;
+    border-radius: 50%;
+    padding: 0.3125em;
+    position: absolute;
+    top: -1.5em;
+    left: 3.5em;
+}
+
+#checkImg svg{
+    font-size: 1.6rem;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+#popUpInfo {
+    font-size: 1rem;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+}
+
+#popUpInfo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#popUpInfo div p{
+    text-align: center; 
+}
+
+#okBtn {
+    font-size: 1rem;
+    background: #64c835;
+    color: #fff;
+    padding: 0.3em;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
