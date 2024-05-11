@@ -1,12 +1,12 @@
 /* #selfInfo division */
 #selfInfo {
-    margin-top: 13em;
+    margin-top: 14em;
     color: var(--sTextcolor);
+    
 }
 
 /* #info division  */
 #info {
-    margin-top: 5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
