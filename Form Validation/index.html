@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaQuery.css" />
+</head>
+<body>
+
+    <!-- main division  -->
+    <div id="main">
+
+        <!-- form division  -->
+        <form id="form">
+
+            <!-- uploadIcon division -->
+            <div id="uploadIcon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5" />
+                </svg>
+            </div>
+              
+
+            <!-- nameSection division -->
+            <div id="nameSection">
+                <label for="fullName">Full Name:</label>
+                <input 
+                    type="text" 
+                    name="fullName" 
+                    id="fullName"
+                    placeholder="Enter your name"
+                    onkeyup="validateName()"
+                />
+                <span id="nameError"></span>
+            </div>
+
+            <!-- phNumSection division -->
+            <div id="phNumSection">
+                <label for="phNum">Phone No:</label>
+                <input 
+                    type="number" 
+                    name="phNum" 
+                    id="phNum"
+                    min="0"
+                    max="9"
+                    placeholder="123 456 7890"
+                    onkeyup="validatePhoneNo()"
+                />
+                <span id="phNumError"></span>
+            </div>
+
+            <!-- emailSection division -->
+            <div id="emailSection">
+                <label for="email">Email Id:</label>
+                <input 
+                    type="email" 
+                    name="email" 
+                    id="email"
+                    placeholder="abc@gmail.com"
+                    onkeyup="validateEmail()"
+                />
+                <span id="emailError"></span>
+            </div>
+
+            <!-- MessageSection division -->
+            <div id="MessageSection">
+                <label for="textMessage">Leave a message:</label>
+                <textarea name="textMessage" id="textMessage" rows="1" onkeyup="validateMessage()"></textarea>
+                <span id="textMessageError"></span>
+            </div>
+            
+            <div id="submitError">
+                   <!-- Please fix the error! -->
+            </div>
+
+            <!-- submitBtn division -->
+            <input 
+                onclick="validateOnSubmit()"
+                type="button" 
+                value="Submit"
+                id="submitBtn"
+            />
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

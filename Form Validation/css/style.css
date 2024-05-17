@@ -1,0 +1,207 @@
+
+
+:root {
+    font-size: 62.5%;
+
+    --bgColor: #212121;
+    --textColor: var(--bgColor);
+    --formBgColor: white;
+    --submitBtnBgColor: rgb(107, 107, 222);
+    --uploadIconBgColor: #4477CE;
+    --errorTextColor: rgba(219, 23, 23, 0.914);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    min-height: 100dvh;
+    width: 100%;
+    font-family: monospace;
+    background: var(--bgColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main division  */
+#main {
+    height: 100dvh;
+    width: 100%;
+    background: var(--bgColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* form division  */
+#form {
+    width: 80%;
+    background: var(--formBgColor);
+    padding: 2em;
+    padding-top: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7em;
+    position: relative;
+    border-radius: 0.7em;
+}
+
+/* uploadIcon division */
+#uploadIcon {
+    width: 4em;
+    padding: 0.8em 0.9em;
+    background: var(--uploadIconBgColor);   
+    border-radius: 50%;
+    position: absolute;
+    top: -2em;
+    left: 40%;
+}
+
+/* nameSection division  */
+#nameSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+}
+#nameSection input{
+    width: 100%;
+    font-size: 1em;
+    padding: 0.5em 0.9em;
+    background: #5251512c;
+    border: none;
+    border-bottom: 0.1em solid gray;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+#nameSection input:focus{
+    outline: none;
+}
+#nameSection span{
+    visibility: hidden;
+    color: var(--errorTextColor);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+/* phNumSection division */
+#phNumSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+}
+#phNumSection input{
+    font-size: 1em;
+    width: 100%;
+    padding: 0.5em 0.9em;
+    background: #5251512c;
+    border: none;
+    border-bottom: 0.1em solid gray;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+#phNumSection input:focus{
+    outline: none;
+}
+#phNumSection span{
+    color: var(--errorTextColor);
+    visibility: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+/* emailSection */
+#emailSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+}
+#emailSection input{
+    font-size: 1em;
+    width: 100%;
+    padding: 0.5em 0.9em;
+    background: #5251512c;
+    border: none;
+    border-bottom: 0.1em solid gray;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+#emailSection input:focus{
+    outline: none;
+}
+#emailSection span{
+    color: var(--errorTextColor);
+    visibility: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+/* MessageSection */
+#MessageSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+}
+#MessageSection textarea{
+    font-size: 1em;
+    width: 100%;
+    padding: 0.5em 0.9em;
+    background: #5251512c;
+    border: none;
+    border-bottom: 0.1em solid gray;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+#MessageSection textarea:focus{
+    outline: none;
+}
+#MessageSection span{
+    color: var(--errorTextColor);
+    visibility: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+/* submitBtn */
+#submitBtn {
+    --textColor: white;
+    font-size: 1.5em;
+    width: fit-content;
+    align-self: center;
+    padding: 0.3em 1.5em;
+    background: var(--submitBtnBgColor);
+    border: none;
+    border-radius: 1em;
+    color: var(--textColor);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* submitError */
+#submitError {
+    color: var(--errorTextColor);
+    align-self: center;
+    display: none;
+}
+
+/* check logo  */
+.validCheck {
+    width: 1.3em;
+    color: white;
+    background: rgb(30, 208, 3);
+    border-radius: 1em;
+    position: absolute;
+    right: 0.5em;
+    top: -2.3em;
+}

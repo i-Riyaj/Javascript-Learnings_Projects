@@ -1,0 +1,96 @@
+/* min-width: 512px */
+@media (min-width: 32em){
+    /* uploadIcon */
+    #uploadIcon{
+        left: 45%;
+    }
+}
+
+/* min-width: 1024px */
+@media (min-width: 48em){
+    body {
+        font-size: 1.8rem;
+    }
+    /* nameSection */
+    #nameSection {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+    #nameSection label{
+        width: 15%;
+        align-self: center;
+    }
+    #nameSection input{
+        width: 50%;
+    }
+    #nameSection span{
+        width: 35%;
+    }
+
+    /* phNumSection  */
+    #phNumSection {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+    #phNumSection label{
+        width: 15%;
+        align-self: center;
+    }
+    #phNumSection input{
+        width: 50%;
+    }
+    #phNumSection span{
+        width: 35%;
+    }
+
+    /* emailSection */
+    #emailSection {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+    #emailSection label{
+        width: 15%;
+        align-self: center;
+    }
+    #emailSection input{
+        width: 50%;
+    }
+    #emailSection span{
+        width: 35%;
+    }
+    
+    /* MessageSection */
+    #MessageSection {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+    #MessageSection label{
+        width: 15%;
+        align-self: center;
+    }
+    #MessageSection textarea{
+        width: 50%;
+        height: fit-content;
+        align-self: center;
+    }
+    #MessageSection span{
+        width: 35%;
+    }
+
+    /* check logo*/
+    .validCheck{
+        top: 0.3em;
+        left: 0;
+    }
+}
+
+/* min-width: 1200px */
+@media (min-width: 80em){
+    body {
+        font-size: 1.8rem;
+    }
+}
