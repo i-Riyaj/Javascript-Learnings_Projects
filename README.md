@@ -7,7 +7,7 @@ In this repository I have uploaded all the projects that I had done while learni
 ## Projects
 1. [Auto Background Changer](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/AutoBackgroundChanger)
 2. [BMI Calculator](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/BMI%20Calculator)
-3. [Color Scheme Switcher](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/Color%20Scheme%20Switcher)
+3. [Color Flipper]([https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/Color%20Scheme%20Switcher](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/Color%20Flipper))
 4. [Dragon Repeller Game](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/Dragon%20Repeller)
 5. [Guess The Number](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/Guess%20The%20Number)
 6. [JS Clock](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/JS%20Clock)
