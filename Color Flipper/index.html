@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <nav id="navBar">
+        <!-- three bar logo -->
+        <button id="three-bar-logo-btn" onclick="showNavbar()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </button>
+          
+        <!-- navigation -->
+        <div class="nav-links">
+            <div>
+                <a href="index.html">Color Flipper</a>
+            </div>
+            <div>
+                <a href="simple.html">Simple</a>
+                <a href="hex.html">Hex</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- control color  -->
+    <div class="control-color">
+        <div>
+            Background Color : <span id="colorText">#d1d8f1</span>
+        </div>
+        <button onclick="changeColor()">Click Me</button>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
