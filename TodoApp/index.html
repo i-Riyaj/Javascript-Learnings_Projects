@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>ToDo List</title>
+
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+	</head>
+	<body class="flex text-white justify-center items-center">
+		<div
+			id="main"
+			class="flex flex-col gap-3 bg-[#727272] rounded p-5"
+		>
+			<div id="addTodo">
+				<input
+					type="text"
+					id="enterTask"
+					required
+					class="bg-[#4E4E4E] px-4 py-2 text-2xl focus:outline-none rounded"
+				/>
+				<button
+					id="addTask"
+					class="bg-blue-500 rounded px-4 py-2 text-2xl"
+				>
+					Add Task
+				</button>
+			</div>
+			<div
+				id="manageTodo"
+				class="flex flex-col gap-3"
+			></div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
