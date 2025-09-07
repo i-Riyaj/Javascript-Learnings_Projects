@@ -18,4 +18,4 @@ In this repository I have uploaded all the projects that I had done while learni
 11. [Hide and Show Password](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/Hide%20and%20Show%20Password)
 12. [Portfolio Website](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/Portfolio%20Website)
 13. [Form Validation](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/Form%20Validation)
-14. [TodoApp](https://i-riyaj.github.io/Javascript-Learnings_Projects/TodoApp/)
+14. [TodoApp](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/TodoApp)
