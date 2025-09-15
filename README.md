@@ -1,10 +1,15 @@
 # Javascript Minor Projects
+
 In this repository I have uploaded all the projects that I had done while learning Javascript.
+
 ## Technolodgy Used
-  - Html
-  - CSS
-  - Javascript
+
+- Html
+- CSS
+- Javascript
+
 ## Projects
+
 1. [Auto Background Changer](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/AutoBackgroundChanger)
 2. [BMI Calculator](https://github.com/i-Riyaj/Javascript-project-learnings/tree/main/BMI%20Calculator)
 3. [Color Flipper](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/Color%20Flipper)
@@ -19,3 +24,4 @@ In this repository I have uploaded all the projects that I had done while learni
 12. [Portfolio Website](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/Portfolio%20Website)
 13. [Form Validation](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/Form%20Validation)
 14. [TodoApp](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/TodoApp)
+15. [Expense Tracker](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/Expense%20Tracker)
