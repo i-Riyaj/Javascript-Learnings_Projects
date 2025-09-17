@@ -25,3 +25,4 @@ In this repository I have uploaded all the projects that I had done while learni
 13. [Form Validation](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/Form%20Validation)
 14. [TodoApp](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/TodoApp)
 15. [Expense Tracker](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/Expense%20Tracker)
+16. [Quiz App](https://github.com/i-Riyaj/Javascript-Learnings_Projects/tree/main/Quiz%20App)
