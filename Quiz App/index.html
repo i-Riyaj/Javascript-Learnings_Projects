@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Quiz</title>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	</head>
+	<body>
+		<div
+			id="main-container"
+			class="min-h-screen bg-black text-white flex justify-center items-center"
+		>
+			<div
+				id="container"
+				class="bg-gray-900 rounded p-5 flex flex-col gap-4 items-center justify-center"
+			>
+				<h1 class="font-bold text-4xl">Quiz App</h1>
+				<button
+					id="start-btn"
+					class="bg-blue-800 rounded text-xl p-2"
+				>
+					Start Quiz
+				</button>
+
+				<div id="quiz-container">
+					<div
+						id="question-container"
+						class="hidden flex flex-col gap-3"
+					>
+						<h2
+							id="question-text"
+							class="text-2xl"
+						></h2>
+						<ul
+							id="choices-list"
+							class="flex flex-col gap-2"
+						></ul>
+						<button
+							id="next-btn"
+							class="hidden bg-blue-800 rounded text-xl p-2"
+						>
+							Next Questions
+						</button>
+					</div>
+
+					<div
+						id="result-container"
+						class="hidden flex flex-col gap-3"
+					>
+						<div class="flex items-center gap-2 text-2xl">
+							<h2>Your Score:</h2>
+							<p id="score">0</p>
+						</div>
+						<button
+							id="restart-btn"
+							class="bg-blue-800 rounded text-xl p-2"
+						>
+							Restart Quiz
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
